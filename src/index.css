@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-html{
-  font-family: sans-serif;
-}
 
 body{
   background: linear-gradient(to right, #2c5364, #203a43);
@@ -15,12 +12,13 @@ body{
 /*togliere questo centra tutto il contenuto di app*/
 .App{
  min-height: 100vh;
- display: flex;
+ display: block;
  justify-content: center;
  align-items: center;
 }
 
 .card{
+  font-family: sans-serif;
   background: white;
   padding: 2rem 3rem;
   border-radius: 2rem;
@@ -28,10 +26,19 @@ body{
 }
 
 .card p{
+  font-family: sans-serif;
   padding-top: 1rem;
   line-height: 150%;
 }
 
 .expand{
   width: 35rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: burlywood;
 }

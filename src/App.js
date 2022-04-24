@@ -1,10 +1,10 @@
-import Cardanimated from "./components/Cardanimated";
+import Cardanimated from "./components/Cardanimated/Cardanimated";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-
-    <Cardanimated/>
+      <Navbar/>
     </div>
   );
 }

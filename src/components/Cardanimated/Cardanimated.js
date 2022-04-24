@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion,} from "framer-motion";
+import { motion } from "framer-motion";
 
 function Cardanimated() {
     const [isOpen, setIsOpen] = useState(false);
