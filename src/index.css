@@ -1,44 +1,18 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 
-body{
+body {
   background: linear-gradient(to right, #2c5364, #203a43);
 }
 
 /*togliere questo centra tutto il contenuto di app*/
-.App{
- min-height: 100vh;
- display: block;
- justify-content: center;
- align-items: center;
-}
-
-.card{
-  font-family: sans-serif;
-  background: white;
-  padding: 2rem 3rem;
-  border-radius: 2rem;
-  box-shadow: 0px 10px 30px rgba(0,0,0, 1);
-}
-
-.card p{
-  font-family: sans-serif;
-  padding-top: 1rem;
-  line-height: 150%;
-}
-
-.expand{
-  width: 35rem;
-}
-
-.navbar{
-  display: flex;
-  justify-content: space-around;
+.App {
+  min-height: 100vh;
+  display: block;
+  justify-content: center;
   align-items: center;
-  min-height: 8vh;
-  background-color: burlywood;
 }

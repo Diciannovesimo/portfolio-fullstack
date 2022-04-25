@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #deb887;
+  }
+
+.navbar a {
+    color: #5E4E3A;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .navbar li {
+    list-style: none;
+  }
+  
+  /*
+  .burger{
+    display: none;
+  }
+  */
+  
+  .burger h1 {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+  }
