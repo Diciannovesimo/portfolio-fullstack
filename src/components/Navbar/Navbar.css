@@ -14,7 +14,7 @@
   color: #5E4E3A;
 }
 
-.navbar ul {
+.slider-off {
   display: flex;
   justify-content: space-around;
   width: 35%;
@@ -33,11 +33,11 @@
   list-style: none;
 }
 
-/*
+
   .burger{
     display: none;
   }
-  */
+
 
 .burger h1 {
   width: 25px;
@@ -52,7 +52,8 @@
     overflow-x: hidden;
   }
 
-  .navbar ul {
+  
+  .slider-off {
     position: absolute;
     right: 0px;
     height: 92vh;
@@ -63,7 +64,7 @@
     align-items: center;
     width: 30%;
     transform: translateX(100%);
-    transition: transform 1s ease-in;
+    transition: transform 0.4s ease-in;
   }
 
   .navbar li {
@@ -73,7 +74,20 @@
   .burger {
     display: block;
     cursor: pointer;
+  }
+
+  .slider-on{
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #deb887;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
     transform: translateX(0%);
+    transition: transform 0.4s ease-in;
   }
 
 }
