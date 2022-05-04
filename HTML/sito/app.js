@@ -4,6 +4,8 @@ const sidebar_links = document.querySelectorAll(".sidebar-links a");
 const active_tab = document.querySelector(".active-tab");
 const shortcuts = document.querySelector(".sidebar-links h4");
 const tooltip_elements = document.querySelectorAll(".tooltip-element");
+const page_landed = document.querySelectorAll(".page-landed main");
+const active_page = document.querySelector(".active-page");
 
 let activeIndex;
 
@@ -32,8 +34,25 @@ function changeLink() {
   sidebar_links.forEach((sideLink) => sideLink.classList.remove("active"));
   this.classList.add("active");
 
+  page_landed.forEach((page) => page.classList.remove("active-page"));
+  
+
   activeIndex = this.dataset.active;
 
+  switch (+activeIndex) {
+    case 0:
+      console.log("0");
+      break;
+    case 1:
+      console.log("1");
+      break;
+    case 2:
+      console.log("2");
+      break;
+    case 3:
+      console.log("3");
+      break;
+  }
   moveActiveTab();
 }
 

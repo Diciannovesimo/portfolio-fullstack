@@ -376,3 +376,11 @@ body.shrink .admin-profile {
 body.shrink .tooltip {
   display: grid;
 }
+
+.page-landed main {
+  display: none;
+}
+
+.page-landed .active-page{
+  display: flex;
+}
