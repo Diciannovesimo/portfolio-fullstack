@@ -2,17 +2,10 @@
   display: flex;
   align-items: center;
   min-height: 8vh;
-  background-color: #deb887;
+  background-color: #000a4e;  
+  
 }
 
-.navbar h4 {
-  font-family: Poppins;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 22px;
-  color: #5E4E3A;
-  margin: auto;
-}
 
 .slider-off {
   position: absolute;
@@ -37,16 +30,21 @@
 .burger {
   display: block;
   cursor: pointer;
-
+  background-color: #2d9194;
+  display: inline-block;
+  border-radius: 45%;
+  box-shadow: 0 0 3px #888;
+  padding: 0.3em 0.4em;
 }
 
 
 .burger h1 {
   width: 25px;
-  height: 3px;
-  background-color: black;
+  height: 4px;
+  background-color: white;
   margin: 5px;
   transition: all 0.3s ease;
+  
 }
 
 .slider-on {
@@ -71,19 +69,21 @@
   font-size: 18px;
 }
 
-.toggle .line1 {
+.toggle1 {
   transform: rotate(-45deg) translate(-5px, 6px);
   transition: transform 0.3s ease-out;
 }
 
-.toggle .line2 {
+.toggle2 {
   opacity: 0;
 }
 
-.toggle .line3 {
+.toggle3 {
   transform: rotate(45deg) translate(-5px, -6px);
   transition: transform 0.3s ease-out;
 }
+
+
 
 /*mobile*/
 @media screen and (max-width:964px) {

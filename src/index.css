@@ -6,13 +6,6 @@
 
 
 body {
-  background: linear-gradient(to right, #2c5364, #203a43);
+  background: white;
 }
 
-/*togliere questo centra tutto il contenuto di app*/
-.App {
-  min-height: 100vh;
-  display: block;
-  justify-content: center;
-  align-items: center;
-}
