@@ -33,26 +33,26 @@ function moveActiveTab() {
 function changeLink() {
   sidebar_links.forEach((sideLink) => sideLink.classList.remove("active"));
   this.classList.add("active");
-
-  page_landed.forEach((page) => page.classList.remove("active-page"));
   
+  page_landed.forEach((page) => page.classList.remove("active-page"));
 
   activeIndex = this.dataset.active;
 
   switch (+activeIndex) {
     case 0:
-      console.log("0");
+      page_landed[0].classList.add("active-page");
       break;
     case 1:
-      console.log("1");
+      page_landed[1].classList.add("active-page");
       break;
     case 2:
-      console.log("2");
+      page_landed[2].classList.add("active-page");
       break;
     case 3:
-      console.log("3");
+      page_landed[3].classList.add("active-page");
       break;
   }
+
   moveActiveTab();
 }
 

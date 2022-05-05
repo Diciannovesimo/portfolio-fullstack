@@ -8,6 +8,9 @@
   <title>Sidebar Menu</title>
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./cardanimated/cardProjects.css">
+  <link rel="stylesheet" href="./cardanimated/cardAbout.css">
+
 </head>
 
 <body>
@@ -71,8 +74,8 @@
     </div>
 
     <div class="sidebar-footer">
-      <a href="#" class="account tooltip-element" data-tooltip="0">
-        <i class='bx bx-user'></i>
+      <a target="_blank" href="https://github.com/Diciannovesimo" class="account tooltip-element" data-tooltip="0">
+        <i class='bx bxl-github'></i>
       </a>
       <div class="admin-user tooltip-element" data-tooltip="1">
         <div class="admin-profile hide">
@@ -94,19 +97,19 @@
     </div>
   </nav>
 
-<div class="page-landed">
-  <main class="active-page" data-active="0">
-    <h1>Home</h1>
-    <p class="text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi voluptatibus cum maxime distinctio
-      iste quod deleniti eius, autem voluptates cumque suscipit iure quasi eligendi ullam. Sapiente eligendi porro
-      reprehenderit corrupti error facilis quo, fugiat fugit? Maiores aliquam ad, molestiae iste nihil, commodi
-      doloremque tempore excepturi aut id ducimus unde?
-    </p>
-  </main>
-  
+  <div class="page-landed">
+    <main class="active-page" data-active="0">
+      <h1>Home</h1>
+      <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi voluptatibus cum maxime distinctio
+        iste quod deleniti eius, autem voluptates cumque suscipit iure quasi eligendi ullam. Sapiente eligendi porro
+        reprehenderit corrupti error facilis quo, fugiat fugit? Maiores aliquam ad, molestiae iste nihil, commodi
+        doloremque tempore excepturi aut id ducimus unde?
+      </p>
+    </main>
 
-  
+
+
     <main data-active="1">
       <h1>Projects</h1>
       <p class="text">
@@ -115,33 +118,75 @@
         reprehenderit corrupti error facilis quo, fugiat fugit? Maiores aliquam ad, molestiae iste nihil, commodi
         doloremque tempore excepturi aut id ducimus unde?
       </p>
-    </main>
-    
-
-    
-      <main data-active="2">
-        <h1>About</h1>
-        <p class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi voluptatibus cum maxime distinctio
-          iste quod deleniti eius, autem voluptates cumque suscipit iure quasi eligendi ullam. Sapiente eligendi porro
-          reprehenderit corrupti error facilis quo, fugiat fugit? Maiores aliquam ad, molestiae iste nihil, commodi
-          doloremque tempore excepturi aut id ducimus unde?
-        </p>
-      </main>
-      
-
-      
-        <main data-active="3">
-          <h1>Work</h1>
-          <p class="text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi voluptatibus cum maxime distinctio
-            iste quod deleniti eius, autem voluptates cumque suscipit iure quasi eligendi ullam. Sapiente eligendi porro
-            reprehenderit corrupti error facilis quo, fugiat fugit? Maiores aliquam ad, molestiae iste nihil, commodi
-            doloremque tempore excepturi aut id ducimus unde?
+      <div class="card">
+        <h2>Framer Motion 🤠</h2>
+        <div class="expand">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Adipisci quia corporis obcaecati eum rem ipsum aliquam perspiciatis culpa doloribus.
+            Quam, quos tenetur? Doloribus eligendi sint reiciendis illum error quisquam.
+            Ipsum?
           </p>
-        </main>
-        
-  <script src="app.js"></script>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Inventore, pariatur.
+          </p>
+        </div>
+      </div>
+    </main>
+
+
+
+    <main data-active="2">
+      <h1>About</h1>
+      <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi voluptatibus cum maxime distinctio
+        iste quod deleniti eius, autem voluptates cumque suscipit iure quasi eligendi ullam. Sapiente eligendi porro
+        reprehenderit corrupti error facilis quo, fugiat fugit? Maiores aliquam ad, molestiae iste nihil, commodi
+        doloremque tempore excepturi aut id ducimus unde?
+      </p>
+      <div class="container">
+        <div class="items">
+          <div class="icon-wrapper">
+            <i class='bx bxl-linkedin-square'></i>
+          </div>
+          <div class="project-name">
+            <p>LINKEDIN</p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icon-wrapper">
+            <i class='bx bxl-github'></i>
+          </div>
+          <div class="project-name">
+            <p>GITHUB</p>
+          </div>
+        </div>
+        <div class="items">
+          <div class="icon-wrapper">
+            <i class='bx bxl-twitter'></i>
+          </div>
+          <div class="project-name">
+            <p>TWITTER</p>
+          </div>
+        </div>  
+      </div>
+    </main>
+
+
+
+    <main data-active="3">
+      <h1>Work</h1>
+      <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi voluptatibus cum maxime distinctio
+        iste quod deleniti eius, autem voluptates cumque suscipit iure quasi eligendi ullam. Sapiente eligendi porro
+        reprehenderit corrupti error facilis quo, fugiat fugit? Maiores aliquam ad, molestiae iste nihil, commodi
+        doloremque tempore excepturi aut id ducimus unde?
+      </p>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 </div>
+
 </html>
