@@ -116,27 +116,6 @@ nav:hover .shrink-btn,
   pointer-events: all;
 }
 
-.search {
-  min-height: 2.7rem;
-  background-color: var(--main-color-light);
-  margin: 2rem 0.5rem 1.7rem;
-  display: grid;
-  grid-template-columns: 2.7rem 1fr;
-  align-items: center;
-  text-align: center;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.search input {
-  height: 100%;
-  border: none;
-  background: none;
-  outline: none;
-  color: #fff;
-  caret-color: #fff;
-  font-family: inherit;
-}
 
 .search input::placeholder {
   color: var(--text-color);
@@ -255,7 +234,7 @@ nav:hover .shrink-btn,
   display: flex;
   align-items: center;
   flex: 1;
-  overflow: hidden;
+  
 }
 
 .admin-user img {
@@ -281,6 +260,7 @@ nav:hover .shrink-btn,
   margin-top: 0.3rem;
   line-height: 1;
 }
+
 
 .log-out {
   display: flex;
@@ -392,4 +372,9 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
+}
+
+.admin-info h6{
+  opacity: 0;
+  pointer-events: none;
 }
