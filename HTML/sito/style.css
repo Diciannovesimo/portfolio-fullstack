@@ -442,3 +442,47 @@ img {
     right: 0px;
   }
 }
+
+/*navbard for mobile*/
+@media only screen and (max-width: 500px) {
+  
+  .shrink-btn {
+    display: none;
+  }
+
+  body.shrink nav {
+    width: 5.4rem;
+  }
+  
+  body .hide {
+    display: none;
+  }
+  
+  body .shrink-btn i {
+    display: none;
+  }
+  
+  body .sidebar-links h4 {
+    display: none;
+  }
+  
+  body .account {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 0.3s 0.3s, color 0.3s 0s;
+  }
+  
+  body .admin-profile {
+    max-width: 0;
+    transition: opacity 0.3s 0s, max-width 0.7s 0s ease-in-out;
+  }
+  
+  body .tooltip {
+    display: none;
+  }
+
+  .sidebar-top .logo {
+    width: 1rem;
+    margin: 0 0.2rem;
+  }
+}
