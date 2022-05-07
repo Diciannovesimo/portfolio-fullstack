@@ -36,7 +36,7 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: auto; /*modify for phone auto 100vh*/
   background-color: var(--main-color);
   width: 18rem;
   padding: 1.8rem 0.85rem;
@@ -398,7 +398,7 @@ img {
 	position: relative;
 	border: solid #3650d4ab;
 	transition: all 0.4s cubic-bezier(0.42, 1, 0.58, 1);
-  width: 180px;
+  width: 180px; /*modify for phone auto 180px*/
   
   flex-wrap: wrap;
   height: auto;

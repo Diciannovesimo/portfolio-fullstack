@@ -13,7 +13,7 @@
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  width: 300px;
+  width: 300px; /*modify for phone auto 300px*/
 }
 .card-header img {
   width: 100%;
@@ -52,3 +52,8 @@
   font-size: 14px;
 }
 
+@media only screen and (max-width: 500px) {
+  .card {
+    width: auto; /*modify for phone auto 300px*/
+  }
+}
