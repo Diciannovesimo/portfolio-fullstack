@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-* {
-  box-sizing: border-box;
-}
 
 .container-card-p {
   display: flex;
@@ -28,8 +25,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 20px;
-  min-height: 250px;
+  padding: 5px;
 }
 
 .tag {
@@ -53,23 +49,6 @@
 }
 
 .card-body p {
-  font-size: 13px;
-  margin: 0 0 40px;
-}
-.user {
-  display: flex;
-  margin-top: auto;
+  font-size: 14px;
 }
 
-.user img {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-.user-info h5 {
-  margin: 0;
-}
-.user-info small {
-  color: #545d7a;
-}

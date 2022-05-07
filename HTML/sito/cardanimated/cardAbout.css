@@ -1,15 +1,12 @@
 .container {
-  
-  
   flex-wrap: wrap;
   height: auto;
-  
 
   margin-left: auto;
   margin-right: auto;
-  
+  margin-top: 15px;
   display: flex;
-  
+
   bottom: 0;
   grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
   grid-template-rows: 1fr;
@@ -35,31 +32,22 @@
 .items i {
   font-size: 100px;
   color: #0a66c2;
-  transform: translateY(0px);
-  transition: all 0.6s;
+  align-items: center;
 }
 
 .items {
-  align-self: end;  
+  align-self: end; 
 }
 
 .items:hover {
-    border: 3px solid #ec4545;
-    transform: translateY(10px);
-    transform: translateY(-5px);
+    transform: translateY(15px);
+    transform: translateY(-10px);
 }
 
 .card-Linkedin {
   align-self: start;
 }
-.card-Linkedin p {
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #0a66c2;
-  transform: translateY(0px);
-  transition: all 0.5s;
-}
+
 
 .icon-wrapper-linkedin i{
   color: #0a66c2;
@@ -68,29 +56,10 @@
 .card-github {
   align-self: start;
 }
-.card-github p {
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #161b22;  
-  transform: translateY(0px);
-  transition: all 0.5s;
-}
+
 
 .icon-wrapper-github i{
   color: #161b22;
-}
-
-.card-twitter {
-  align-self: start;
-}
-.card-twitter p {
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: rgb(29, 155, 240);  
-  transform: translateY(0px);
-  transition: all 0.5s;
 }
 
 .icon-wrapper-twitter i{

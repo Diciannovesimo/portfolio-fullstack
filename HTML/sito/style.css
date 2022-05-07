@@ -383,22 +383,13 @@ img {
   pointer-events: none;
 }
 
+/*CV Button download and animation*/
 
-/*
-.Curriculum {
-  margin: 10px;
-  background-color: transparent;
-  
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  width: 50px;
-}
-*/
 .Curriculum i{
   font-size: 2rem;
 }
 
-/*CV download animation*/
+
 .Curriculum {
 	color: rgb(0, 0, 0);
   background-color: transparent;
@@ -440,6 +431,7 @@ img {
   
 }
 
+/*Change Page Animation*/
 @keyframes animation-slide {
   0% {
     left: 200px;
